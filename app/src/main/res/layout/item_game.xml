@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:background="@color/colorBlack">
+
+        <TextView
+            android:id="@+id/nomeCamp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/colorFont"/>
+
+    <ImageView
+        android:id="@+id/imgTimeUm"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@mipmap/ic_launcher_round"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="30dp"/>
+
+        <TextView
+            android:id="@+id/timeUm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Grêmio FBPA"
+            android:textSize="16dp"
+            android:layout_below="@id/imgTimeUm"
+            android:layout_marginTop="6dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/colorFont"/>
+
+        <TextView
+            android:id="@+id/txtData"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="15sp"
+            android:text="20/09/2018"
+            android:textAlignment="center"
+            android:layout_marginTop="40dp"
+            android:textColor="@color/colorFont"/>
+
+    <ImageView
+        android:id="@+id/imgTimeDois"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@mipmap/ic_launcher_round"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="35dp"
+        android:layout_marginRight="30dp"/>
+
+        <TextView
+            android:id="@+id/timeDois"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SC Internacional"
+            android:textSize="16dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/imgTimeDois"
+            android:layout_marginTop="6dp"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/colorFont"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>
